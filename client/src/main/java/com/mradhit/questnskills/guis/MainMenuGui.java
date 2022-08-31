@@ -1,9 +1,9 @@
-package com.mradhit.skillnquest.guis;
+package com.mradhit.questnskills.guis;
 
-import com.mradhit.skillnquest.guis.painters.SpritePainter;
-import com.mradhit.skillnquest.guis.widgets.WSpriteButton;
-import com.mradhit.skillnquest.QuestnSkills;
-import com.mradhit.skillnquest.managers.ScreenManager;
+import com.mradhit.questnskills.guis.painters.SpritePainter;
+import com.mradhit.questnskills.guis.widgets.WSpriteButton;
+import com.mradhit.questnskills.QuestnSkills;
+import com.mradhit.questnskills.managers.ScreenManager;
 import io.github.cottonmc.cotton.gui.client.LightweightGuiDescription;
 import io.github.cottonmc.cotton.gui.widget.WPlainPanel;
 import net.minecraft.client.MinecraftClient;

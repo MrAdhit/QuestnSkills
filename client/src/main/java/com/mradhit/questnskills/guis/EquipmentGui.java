@@ -1,8 +1,8 @@
-package com.mradhit.skillnquest.guis;
+package com.mradhit.questnskills.guis;
 
-import com.mradhit.skillnquest.guis.painters.SpritePainter;
-import com.mradhit.skillnquest.guis.widgets.WSpriteButton;
-import com.mradhit.skillnquest.utils.PacketChannel;
+import com.mradhit.questnskills.guis.painters.SpritePainter;
+import com.mradhit.questnskills.guis.widgets.WSpriteButton;
+import com.mradhit.questnskills.utils.PacketChannel;
 import io.github.cottonmc.cotton.gui.client.LightweightGuiDescription;
 import io.github.cottonmc.cotton.gui.widget.WPlainPanel;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;

@@ -1,4 +1,4 @@
-package com.mradhit.skillnquest.guis.painters;
+package com.mradhit.questnskills.guis.painters;
 
 import io.github.cottonmc.cotton.gui.client.BackgroundPainter;
 import io.github.cottonmc.cotton.gui.client.ScreenDrawing;

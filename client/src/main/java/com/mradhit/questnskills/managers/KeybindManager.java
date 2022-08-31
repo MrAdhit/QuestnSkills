@@ -1,7 +1,7 @@
-package com.mradhit.skillnquest.managers;
+package com.mradhit.questnskills.managers;
 
-import com.mradhit.skillnquest.QuestnSkills;
-import com.mradhit.skillnquest.guis.MainMenuGui;
+import com.mradhit.questnskills.QuestnSkills;
+import com.mradhit.questnskills.guis.MainMenuGui;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.MinecraftClient;

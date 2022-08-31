@@ -1,6 +1,6 @@
-package com.mradhit.skillnquest.utils;
+package com.mradhit.questnskills.utils;
 
-import com.mradhit.skillnquest.QuestnSkills;
+import com.mradhit.questnskills.QuestnSkills;
 import net.minecraft.util.Identifier;
 
 public class PacketChannel {

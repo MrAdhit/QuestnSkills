@@ -1,4 +1,4 @@
-package com.mradhit.skillnquest.managers;
+package com.mradhit.questnskills.managers;
 
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 

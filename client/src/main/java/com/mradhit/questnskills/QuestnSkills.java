@@ -1,10 +1,8 @@
-package com.mradhit.skillnquest;
+package com.mradhit.questnskills;
 
-import com.mradhit.skillnquest.managers.KeybindManager;
-import com.mradhit.skillnquest.managers.NetworkManager;
+import com.mradhit.questnskills.managers.KeybindManager;
+import com.mradhit.questnskills.managers.NetworkManager;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.text.Text;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

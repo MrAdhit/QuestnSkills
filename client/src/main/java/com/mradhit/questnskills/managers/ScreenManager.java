@@ -1,4 +1,4 @@
-package com.mradhit.skillnquest.managers;
+package com.mradhit.questnskills.managers;
 
 import io.github.cottonmc.cotton.gui.GuiDescription;
 import io.github.cottonmc.cotton.gui.client.CottonClientScreen;
