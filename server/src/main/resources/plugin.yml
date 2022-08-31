@@ -1,0 +1,5 @@
+name: QuestnSkills
+version: '${project.version}'
+main: com.mradhit.questnskills.QuestnSkills
+api-version: 1.18
+authors: [ MrAdhit ]
