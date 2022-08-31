@@ -57,7 +57,7 @@ java {
     if (JavaVersion.current() < javaVersion) {
         toolchain.languageVersion = JavaLanguageVersion.of(targetJavaVersion)
     }
-    archivesBaseName = project.archives_base_name
+    archivesBaseName = "${project.archives_base_name}-client"
     // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
     // if it is present.
     // If you remove this line, sources will not be generated.
@@ -69,6 +69,13 @@ jar {
         rename { "${it}_${project.archivesBaseName}" }
     }
 }
+
+task copyJar(type: Copy) {
+    from "/build/libs/${project.archives_base_name}-client-${project.mod_version}.jar"
+    into "../libs"
+}
+
+build.finalizedBy copyJar
 
 // configure the maven publication
 publishing {
