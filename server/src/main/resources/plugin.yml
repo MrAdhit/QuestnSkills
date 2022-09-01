@@ -8,3 +8,5 @@ commands:
     description: getkill
   setkill:
     description: setkill
+  setmana:
+    description: setmana

@@ -12,6 +12,7 @@ import java.io.IOException;
 public class PlayerSaveManager {
     public YamlDocument SAVE;
     public Kill KILL = new Kill();
+    public Mana MANA = new Mana();
 
     private Player player;
 
@@ -34,6 +35,18 @@ public class PlayerSaveManager {
 
         public int get() {
             return (int) (SAVE.get(Route.fromString("kills")) == null ? 0 : SAVE.get(Route.fromString("kills")));
+        }
+    }
+
+    public class Mana {
+        public void set(int count) {
+            SAVE.set(Route.fromString("mana"), count);
+
+            save();
+        }
+
+        public int get() {
+            return (int) (SAVE.get(Route.fromString("mana")) == null ? 10 : SAVE.get(Route.fromString("mana")));
         }
     }
 

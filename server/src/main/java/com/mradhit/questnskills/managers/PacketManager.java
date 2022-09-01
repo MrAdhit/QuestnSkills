@@ -36,6 +36,7 @@ public class PacketManager {
         PlayerSaveManager playerData = new PlayerSaveManager(player);
 
         data.put("kills", playerData.KILL.get());
+        data.put("mana", playerData.MANA.get());
 
         player.getPlayer().sendPluginMessage(QuestnSkills.plugin, PacketChannel.SYNCHRONIZE, PacketManager.buildMessage(data.toString()));
     }

@@ -20,5 +20,11 @@ public class CommandManager {
             playerData.KILL.set(Integer.valueOf(args[0]));
             return false;
         });
+        QuestnSkills.plugin.getCommand("setmana").setExecutor((sender, command, label, args) -> {
+            PlayerSaveManager playerData = new PlayerSaveManager((Player) sender);
+
+            playerData.MANA.set(Integer.valueOf(args[0]));
+            return false;
+        });
     }
 }

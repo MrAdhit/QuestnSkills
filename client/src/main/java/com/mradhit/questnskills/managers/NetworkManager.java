@@ -15,6 +15,7 @@ public class NetworkManager {
             JSONObject data = new JSONObject(bufs);
 
             QuestnSkills.syncedData.put("kills", data.get("kills"));
+            QuestnSkills.syncedData.put("mana", data.get("mana"));
         });
     }
 }
