@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "skillnquest",
+  "id": "questnskills",
   "version": "${version}",
   "name": "Quest & Skills",
   "description": "",
@@ -13,11 +13,11 @@
   "environment": "client",
   "entrypoints": {
     "main": [
-      "com.mradhit.skillnquest.QuestnSkills"
+      "com.mradhit.questnskills.QuestnSkills"
     ]
   },
   "mixins": [
-    "skillnquest.mixins.json"
+    "questnskills.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.9",

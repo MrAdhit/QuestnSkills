@@ -3,3 +3,8 @@ version: '${project.version}'
 main: com.mradhit.questnskills.QuestnSkills
 api-version: 1.18
 authors: [ MrAdhit ]
+commands:
+  getkill:
+    description: getkill
+  setkill:
+    description: setkill
