@@ -1,5 +1,6 @@
 package com.mradhit.questnskills.guis;
 
+import com.mradhit.questnskills.QuestnSkills;
 import com.mradhit.questnskills.guis.painters.SpritePainter;
 import com.mradhit.questnskills.guis.widgets.WSpriteButton;
 import com.mradhit.questnskills.utils.PacketChannel;
@@ -18,10 +19,10 @@ public class EquipmentGui extends LightweightGuiDescription {
         setRootPanel(root);
         root.setSize(wPanel, hPanel);
 
-        WSpriteButton button1 = new WSpriteButton(new Identifier("minecraft:textures/models/armor/flamos_helmet.png"));
+        WSpriteButton button1 = new WSpriteButton(new Identifier(QuestnSkills.MOD_ID, "textures/gui/eq1.png"));
         button1.setTooltips(new String[]{
                 "Equipment 1",
-                "Give a diamond helmet",
+                "Get Flamos Set",
                 " ",
                 "§aDirt x64",
                 "§aStone x64",

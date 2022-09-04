@@ -6,6 +6,7 @@
   "mixins": [
   ],
   "client": [
+    "ModInGameHud"
   ],
   "injectors": {
     "defaultRequire": 1

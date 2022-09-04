@@ -18,7 +18,7 @@ public class MainMenuGui extends LightweightGuiDescription {
         setRootPanel(root);
         root.setSize(wPanel, hPanel);
 
-        WSpriteButton button1 = new WSpriteButton(new Identifier("minecraft:textures/gui/buttons/button-p.png"));
+        WSpriteButton button1 = new WSpriteButton(new Identifier("questnskills:textures/gui/buttons/button-p.png"));
         button1.setTooltips(new String[]{"Ke Equipments"});
         button1.setOnClick(() -> {
             MinecraftClient.getInstance().setScreen(new ScreenManager(new EquipmentGui()));
@@ -28,7 +28,7 @@ public class MainMenuGui extends LightweightGuiDescription {
         WSpriteButton button2 = new WSpriteButton(new Identifier("questnskills:textures/gui/buttons/button-p.png"));
         button2.setTooltips(new String[]{"Ke Abilities"});
         button2.setOnClick(() -> {
-
+            MinecraftClient.getInstance().setScreen(new ScreenManager(new AbilitiesGui()));
         });
         root.add(button2, 863 / 5, 390 / 5, 194 / 5, 189 / 5);
 

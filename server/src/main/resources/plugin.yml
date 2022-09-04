@@ -2,6 +2,9 @@ name: QuestnSkills
 version: '${project.version}'
 main: com.mradhit.questnskills.QuestnSkills
 api-version: 1.18
+load: POSTWORLD
+depend:
+  - MMOCore
 authors: [ MrAdhit ]
 commands:
   getkill:
